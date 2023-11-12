@@ -107,6 +107,7 @@ body {
      font-weight: 500;
      line-height: 1.2; 
      letter-spacing: 0.02em;
+     color: var(--primary-text-color);
 }
 .features-tagline {
      font-size: 16px;
@@ -178,6 +179,13 @@ body {
      color: #F4F4FD;
 }
 .logo-footer {
+     font-family: "Raleway", sans-serif;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 1.17; 
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
      color: var(--accent-color);
 }
 .logo-footer-studio {
