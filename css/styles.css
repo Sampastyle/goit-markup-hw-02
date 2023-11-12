@@ -19,7 +19,7 @@
     --tagline-text-color: #434455;
     --accent-color: #4D5AE5;
     --button-hower-color: #404BBF;
-    --footer-text-color: #E7E9FC;
+    --footer-text-color: #F4F4FD;
 }
 button {
      cursor: pointer;
@@ -30,7 +30,7 @@ a {
 .list {
      list-style: none;
    }
-.address {
+.contacts {
      font-style: normal;
 }
 body {
@@ -46,8 +46,6 @@ body {
      line-height: 1.17; 
      letter-spacing: 0.03em;
      text-transform: uppercase;
-}
-.logo-web {
      color: var(--accent-color);
 }
 .logo-studio {
@@ -99,10 +97,10 @@ body {
 }
 .main-button:hover,
 .main-button:focus {
-     background-color: var(--button-click-color);
+     background-color: var(--button-hower-color);
 }
 .main-button:active {
- background-color: var(--button-click-color);
+     background-color: var(--button-hower-color);
 }
 .features-title {
      font-size: 20px;
@@ -128,7 +126,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    color: var(--tagline-text-color);
+    color: var(--primary-text-color);
     }
     
 .member-name { 
@@ -136,7 +134,7 @@ body {
      font-weight: 500;
      line-height: 1.2;
      letter-spacing: 0.02em;
-
+     color: var(--primary-text-color);
 }
 .description {
      font-size: 16px;
@@ -153,13 +151,14 @@ body {
      letter-spacing: 0.02em;
      text-align: center;
      text-transform: capitalize;
+     color: var(--primary-text-color);
 }
 .portfolio-name {
      font-size: 20px;
      font-weight: 500;
      line-height: 1.2; 
      letter-spacing: 0.02em;
-
+     color: var(--primary-text-color);
 }
 .portfolio-description {
      font-size: 16px;
@@ -168,7 +167,7 @@ body {
      letter-spacing: 0.02em;
      color: var(--tagline-text-color);
 }
-.footer{
+.footer {
     background-color: var(--primary-text-color);
 }
 .footer-description {
@@ -176,9 +175,11 @@ body {
      font-weight: 400;
      line-height: 1.5; 
      letter-spacing: 0.02em;
-     color: var(--footer-text-color);
-
+     color: #F4F4FD;
 }
-.footer-studio {
-    color: var(--primary-white-color);
+.logo-footer {
+     color: var(--accent-color);
+}
+.logo-footer-studio {
+     color: #F4F4FD;
 }
